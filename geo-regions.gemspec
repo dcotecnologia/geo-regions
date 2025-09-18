@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.5"
   spec.test_files = Dir["spec/**/*"]
 
-  spec.add_dependency "rubyzip", "~> 2.3"
+  spec.add_dependency "rubyzip", ">= 2.3", "< 4.0"
   spec.add_dependency "ruby-enum", "~> 0.9"
   spec.add_dependency "zip", "~> 2.0"
 
